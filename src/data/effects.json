@@ -1,7 +1,7 @@
 {
   "updated": {
-    "date": "2022-02-10",
-    "majorVersion": "1.18"
+    "date": "2024-07-03",
+    "majorVersion": "1.21"
   },
   "data": [
     {
@@ -34,6 +34,237 @@
           "potency": "II",
           "length": "0:05",
           "note": "When activated"
+        }
+      ]
+    },
+    {
+      "tag": "darkness",
+      "name": "Darkness",
+      "minecraftId": 33,
+      "description": {
+        "short": "An effect that reduces the player's vision.",
+        "long": "Darkness is a status effect that decreases the player's vision range, causing the screen to become progressively darker over time. The effect reduces the light level around the player, making it more difficult to see. This can hinder the player's ability to navigate and detect threats in their surroundings. Unlike Blindness, which completely obscures vision, Darkness only dims it significantly. The effect can be inflicted by certain mobs, potions, or environmental conditions. Darkness does not affect the player's ability to interact with items or entities, but it makes exploration and combat more challenging."
+      },
+      "type": "bad",
+      "causes": [
+        {
+          "tag": "warden",
+          "description": "A mob that inflicts the Darkness effect.",
+          "potency": "I",
+          "length": "0:10",
+          "note": "When the Warden roars"
+        },
+        {
+          "tag": "suspicious_stew",
+          "description": "A food item that can inflict the Darkness effect.",
+          "potency": "II",
+          "length": "0:10",
+          "note": "When consumed"
+        },
+        {
+          "tag": "darkness_potion",
+          "description": "A potion that inflicts the Darkness effect.",
+          "potency": "II",
+          "length": "2:00",
+          "note": "When consumed or thrown"
+        }
+      ]
+    },
+    {
+      "tag": "wind_charged",
+      "name": "Wind Charged",
+      "minecraftId": 32,
+      "description": {
+        "short": "An effect that causes an entity to release a burst of wind upon death.",
+        "long": "Wind Charged is a status effect that causes an entity to release a burst of wind upon death. This effect can be found during ominous trials when the effect is applied by randomly spawned lingering potions. The burst of wind can help knock back hordes of enemies but can also startle the player if they are not expecting it. Mobs affected by Wind Charged emit wind-like particles. Boss mobs are immune to this effect."
+      },
+      "type": "negative",
+      "causes": [
+        {
+          "tag": "potion_of_wind_charging",
+          "description": "A potion that grants the Wind Charged effect.",
+          "potency": "I",
+          "length": "3:00",
+          "note": "When consumed"
+        },
+        {
+          "tag": "splash_potion_of_wind_charging",
+          "description": "A splash potion that grants the Wind Charged effect.",
+          "potency": "I",
+          "length": "3:00",
+          "note": "When thrown"
+        },
+        {
+          "tag": "lingering_potion_of_wind_charging",
+          "description": "A lingering potion that grants the Wind Charged effect.",
+          "potency": "I",
+          "length": "0:45",
+          "note": "When thrown"
+        },
+        {
+          "tag": "arrow_of_wind_charging",
+          "description": "An arrow that grants the Wind Charged effect.",
+          "potency": "I",
+          "length": "0:22",
+          "note": "When hitting an entity"
+        }
+      ]
+    },
+    {
+      "tag": "weaving",
+      "name": "Weaving",
+      "minecraftId": 33,
+      "description": {
+        "short": "An effect that causes cobwebs to spawn upon an entity's death.",
+        "long": "Weaving is a status effect that causes cobwebs to spawn in an area around an entity upon its death, making it the only renewable source of cobwebs. 2-3 cobwebs can spawn in a 3x3x3 cube centered on the affected entity, but they can only appear on top of existing blocks with a full top face. Mobs affected by Weaving emit web-like particles. Entities affected by Weaving move through cobwebs at 50% speed instead of the usual 25%. Boss mobs are immune to this effect."
+      },
+      "type": "negative",
+      "causes": [
+        {
+          "tag": "potion_of_weaving",
+          "description": "A potion that grants the Weaving effect.",
+          "potency": "I",
+          "length": "3:00",
+          "note": "When consumed"
+        },
+        {
+          "tag": "splash_potion_of_weaving",
+          "description": "A splash potion that grants the Weaving effect.",
+          "potency": "I",
+          "length": "3:00",
+          "note": "When thrown"
+        },
+        {
+          "tag": "lingering_potion_of_weaving",
+          "description": "A lingering potion that grants the Weaving effect.",
+          "potency": "I",
+          "length": "0:45",
+          "note": "When thrown"
+        },
+        {
+          "tag": "arrow_of_weaving",
+          "description": "An arrow that grants the Weaving effect.",
+          "potency": "I",
+          "length": "0:22",
+          "note": "When hitting an entity"
+        }
+      ]
+    },
+    {
+      "tag": "oozing",
+      "name": "Oozing",
+      "minecraftId": 34,
+      "description": {
+        "short": "An effect that causes slimes to spawn upon an entity's death.",
+        "long": "Oozing is a status effect that causes two slimes to spawn in a 5x5x5 area around the entity upon its death, both of size 2. The potency level of the potion has no effect on the number or size of the slimes spawned. Entities with the Oozing effect emit green particles with textures from part of a slimeball. This effect can be found during ominous trials and is applied by randomly spawned lingering potions. Boss mobs and slimes are immune to this effect."
+      },
+      "type": "negative",
+      "causes": [
+        {
+          "tag": "potion_of_oozing",
+          "description": "A potion that grants the Oozing effect.",
+          "potency": "I",
+          "length": "3:00",
+          "note": "When consumed"
+        },
+        {
+          "tag": "splash_potion_of_oozing",
+          "description": "A splash potion that grants the Oozing effect.",
+          "potency": "I",
+          "length": "3:00",
+          "note": "When thrown"
+        },
+        {
+          "tag": "lingering_potion_of_oozing",
+          "description": "A lingering potion that grants the Oozing effect.",
+          "potency": "I",
+          "length": "0:45",
+          "note": "When thrown"
+        },
+        {
+          "tag": "arrow_of_oozing",
+          "description": "An arrow that grants the Oozing effect.",
+          "potency": "I",
+          "length": "0:22",
+          "note": "When hitting an entity"
+        }
+      ]
+    },
+    {
+      "tag": "infested",
+      "name": "Infested",
+      "minecraftId": 35,
+      "description": {
+        "short": "An effect that causes silverfish to spawn when an entity takes damage.",
+        "long": "Infested is a status effect that causes silverfish to spawn on an entity that is taking damage. Infested entities have a 10% chance to spawn 1-2 silverfish when hurt. The silverfish spawn at the center of the affected entity's bounding box and fling out in the direction the entity is facing. The damage source does not need to reduce the health of the affected entity. Entities with the Infested effect emit gray, silverfish-shaped particles. Boss mobs and silverfish are immune to this effect."
+      },
+      "type": "negative",
+      "causes": [
+        {
+          "tag": "potion_of_infestation",
+          "description": "A potion that grants the Infested effect.",
+          "potency": "I",
+          "length": "3:00",
+          "note": "When consumed"
+        },
+        {
+          "tag": "splash_potion_of_infestation",
+          "description": "A splash potion that grants the Infested effect.",
+          "potency": "I",
+          "length": "3:00",
+          "note": "When thrown"
+        },
+        {
+          "tag": "lingering_potion_of_infestation",
+          "description": "A lingering potion that grants the Infested effect.",
+          "potency": "I",
+          "length": "0:45",
+          "note": "When thrown"
+        },
+        {
+          "tag": "arrow_of_infestation",
+          "description": "An arrow that grants the Infested effect.",
+          "potency": "I",
+          "length": "0:22",
+          "note": "When hitting an entity"
+        }
+      ]
+    },
+    {
+      "tag": "raid_omen",
+      "name": "Raid Omen",
+      "minecraftId": 36,
+      "description": {
+        "short": "A neutral effect that causes raids to start.",
+        "long": "Raid Omen is a neutral status effect that causes raids to start. It appears when a player with Bad Omen enters a one-chunk radius surrounding a chunk with a villager and a claimed bed, bell, or job site. The effect lasts for 30 seconds. Once it expires, a raid starts at the location the player gained the Raid Omen. The potency of Raid Omen determines the chance for illagers to have enchanted weapons during the raid and the number of raid waves, with higher levels giving more waves. Boss mobs and illagers are immune to Raid Omen. The effect can be removed through conventional methods like drinking milk or dying."
+      },
+      "type": "neutral",
+      "causes": [
+        {
+          "tag": "bad_omen_entry",
+          "description": "Gained by entering a one-chunk radius surrounding a chunk with a villager and a claimed bed, bell, or job site while having the Bad Omen effect.",
+          "potency": "N/A",
+          "length": "0:30",
+          "note": "When entering the specified area"
+        }
+      ]
+    },
+    {
+      "tag": "trial_omen",
+      "name": "Trial Omen",
+      "minecraftId": 31,
+      "description": {
+        "short": "A neutral effect that causes nearby trial spawners to become ominous.",
+        "long": "Trial Omen is a neutral status effect granted when a non-ominous trial spawner enters the line of sight of a player with Bad Omen. It causes nearby trial spawners to become ominous trial spawners. The effect lasts for 15 minutes multiplied by the level of Bad Omen. When a player receives the Trial Omen effect, they start an ominous trial, and blue flames appear on their body. Trial Omen can be removed through conventional methods like drinking milk or dying. Boss mobs and trial spawner mobs are immune to this effect."
+      },
+      "type": "neutral",
+      "causes": [
+        {
+          "tag": "bad_omen_conversion",
+          "description": "Granted when a non-ominous trial spawner enters the line of sight of a player with Bad Omen.",
+          "potency": "N/A",
+          "length": "15:00 per level of Bad Omen",
+          "note": "When near a trial spawner"
         }
       ]
     },
