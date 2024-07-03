@@ -1,8 +1,21 @@
 {
   "name": "@mcdata/data",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Minecraft data used in the API/Discord client.",
-  "main": "src/index.ts",
+  "keywords": [
+    "mcdata",
+    "data",
+    "minecraft"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcdata-dev/mcdata-data.git"
+  },
+  "license": "GPL-3.0-only",
+  "author": {
+    "name": "McData Development",
+    "url": "https://github.com/mcdata-dev"
+  },
   "exports": {
     ".": {
       "types": "./src/index.d.ts",
@@ -10,32 +23,19 @@
       "import": "./src/index.mjs"
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mcdata-dev/mcdata-data.git"
-  },
-  "author": {
-    "name": "McData Development",
-    "url": "https://github.com/mcdata-dev"
-  },
-  "license": "GPL-3.0-only",
-  "keywords": [
-    "mcdata",
-    "data",
-    "minecraft"
-  ],
+  "main": "src/index.ts",
   "files": [
     "src/**/*.{js,js.map,d.ts,d.ts.map,mjs}"
   ],
   "scripts": {
     "build:ci": "tsc --noEmit --incremental false",
     "build:node": "tsc && run-p esm",
-    "clean:node": "rimraf --glob \"src/**/*.{js,mjs,d.ts,*map}\"",
     "clean": "run-p clean:*",
+    "clean:node": "rimraf --glob \"src/**/*.{js,mjs,d.ts,*map}\"",
     "esm": "gen-esm-wrapper ./src/index.js ./src/index.mjs",
-    "postpublish": "run-s clean:node",
-    "prepublishOnly": "run-s clean build:node",
     "format": "prettier --write .",
+    "prepublishOnly": "run-s clean build:node",
+    "postpublish": "run-s clean:node",
     "test": "vitest run --coverage"
   },
   "devDependencies": {
