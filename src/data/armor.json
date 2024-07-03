@@ -1,13 +1,13 @@
 {
   "updated": {
-    "date": "2022-02-10",
-    "majorVersion": "1.18"
+    "date": "2024-07-03",
+    "majorVersion": "1.21"
   },
   "data": [
     {
       "tag": "leather_helmet",
       "name": "Leather Cap",
-      "material": "lether",
+      "material": "leather",
       "durability": 55,
       "defensePoints": 1,
       "toughness": 0
@@ -15,7 +15,7 @@
     {
       "tag": "leather_chestplate",
       "name": "Leather Tunic",
-      "material": "lether",
+      "material": "leather",
       "durability": 80,
       "defensePoints": 3,
       "toughness": 0
@@ -23,7 +23,7 @@
     {
       "tag": "leather_leggings",
       "name": "Leather Pants",
-      "material": "lether",
+      "material": "leather",
       "durability": 75,
       "defensePoints": 2,
       "toughness": 0
@@ -31,7 +31,7 @@
     {
       "tag": "leather_boots",
       "name": "Leather Boots",
-      "material": "lether",
+      "material": "leather",
       "durability": 65,
       "defensePoints": 1,
       "toughness": 0
