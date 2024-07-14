@@ -1,7 +1,7 @@
 {
   "updated": {
-    "date": "2022-12-17",
-    "majorVersion": "1.19"
+    "date": "2024-07-03",
+    "majorVersion": "1.21"
   },
   "data": [
     {
@@ -32,9 +32,9 @@
       "tag": "minecraft_legends",
       "name": "Minecraft Legends",
       "description": "A real-time strategy game where the player has to defend the overworld from the piglins.",
-      "officialRelease": null,
+      "officialRelease": "April 18, 2023",
       "editions": [],
-      "status": "upcoming"
+      "status": "active"
     },
     {
       "tag": "minecraft_storymode",

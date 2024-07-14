@@ -1,7 +1,7 @@
 {
   "updated": {
-    "date": "2022-02-12",
-    "majorVersion": "1.18"
+    "date": "2024-07-03",
+    "majorVersion": "1.21"
   },
   "data": [
     {
@@ -30,6 +30,7 @@
         "bamboo_jungle",
         "beach",
         "birch_forest",
+        "cherry_grove",
         "cold_ocean",
         "dark_forest",
         "deep_cold_ocean",
@@ -48,8 +49,8 @@
         "ice_spikes",
         "jagged_peaks",
         "jungle",
-        "lukewarm_ocean",
         "lush_caves",
+        "lukewarm_ocean",
         "meadow",
         "mushroom_fields",
         "ocean",
@@ -99,7 +100,8 @@
         "workingRespawnAnchor": false,
         "workingBed": true,
         "safePiglins": false
-      }
+      },
+      "biomes": ["deep_dark", "dripstone_caves", "lush_caves"]
     },
     {
       "tag": "the_nether",
@@ -123,11 +125,11 @@
         "safePiglins": true
       },
       "biomes": [
-        "nether_wastes",
+        "basalt_deltas",
         "crimson_forest",
-        "warped_forest",
+        "nether_wastes",
         "soul_sand_valley",
-        "basalt_deltas"
+        "warped_forest"
       ]
     },
     {
@@ -151,7 +153,7 @@
         "workingBed": false,
         "safePiglins": false
       },
-      "biomes": ["the_end", "small_end_islands", "end_highlands", "end_midlands", "end_barrens"]
+      "biomes": ["end_barrens", "end_highlands", "end_midlands", "small_end_islands", "the_end"]
     }
   ]
 }

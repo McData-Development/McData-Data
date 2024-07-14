@@ -1,7 +1,7 @@
 {
   "updated": {
-    "date": "2022-12-15",
-    "majorVersion": "1.19"
+    "date": "2024-07-03",
+    "majorVersion": "1.21"
   },
   "data": [
     {
@@ -473,11 +473,65 @@
       "release": "December 7, 2022"
     },
     {
+      "version": "1.19.4",
+      "major": "1.19",
+      "majorName": "The Wild Update",
+      "release": "March 14, 2023"
+    },
+    {
       "version": "1.20",
       "major": "1.20",
-      "majorName": null,
+      "majorName": "Trails & Tales",
+      "release": "June 7, 2023"
+    },
+    {
+      "version": "1.20.1",
+      "major": "1.20",
+      "majorName": "Trails & Tales",
+      "release": "June 12, 2023"
+    },
+    {
+      "version": "1.20.2",
+      "major": "1.20",
+      "majorName": "Trails & Tales",
+      "release": "September 21, 2023"
+    },
+    {
+      "version": "1.20.3",
+      "major": "1.20",
+      "majorName": "Trails & Tales",
+      "release": "December 5, 2023"
+    },
+    {
+      "version": "1.20.4",
+      "major": "1.20",
+      "majorName": "Trails & Tales",
+      "release": "December 7, 2023"
+    },
+    {
+      "version": "1.20.5",
+      "major": "1.20",
+      "majorName": "Trails & Tales",
+      "release": "April 23, 2024"
+    },
+    {
+      "version": "1.20.6",
+      "major": "1.20",
+      "majorName": "Trails & Tales",
+      "release": "April 29, 2024"
+    },
+    {
+      "version": "1.21",
+      "major": "1.21",
+      "majorName": "Tricky Trials",
+      "release": "June 13, 2024"
+    },
+    {
+      "version": "1.21.1",
+      "major": "1.21",
+      "majorName": "Tricky Trials",
       "release": null,
-      "planned": "2023"
+      "planned": "2024"
     }
   ]
 }
